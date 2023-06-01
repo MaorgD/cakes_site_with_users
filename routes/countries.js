@@ -4,6 +4,7 @@ const {CountryModel,validateCountry} = require("../models/countryModel")
 const router = express.Router();
 
 
+
 router.get("/" , async(req,res)=> {
   // Math.min -> המספר המקסימלי יהיה 20 כדי שהאקר לא ינסה
   // להוציא יותר אם אין צורך בזה מבחינת הלקוח

@@ -1,5 +1,7 @@
 require("dotenv").config()
+  
 
+// 123
 // כל המשתנים שצריכים להיות סודיים יהיו בקובץ הזה
 exports.config = {
   userDb:process.env.USER_DB,
